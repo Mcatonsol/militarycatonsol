@@ -1,0 +1,46 @@
+nav {
+  width: 70vw;
+  height: auto;
+  margin: auto;
+  max-width: 2560px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  background-color: transparent;
+}
+
+.nav-left {
+  display: flex;
+
+  .icon {
+    width: auto;
+    display: flex;
+    align-items: center;
+
+    img {
+      border-radius: 50%;
+      border: 4px solid rgb(217, 0, 0);
+    }
+    span {
+      font-weight: 700;
+      color: white;
+    }
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    color: white;
+
+    div {
+      margin-right: 1rem;
+    }
+  }
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
