@@ -34,9 +34,15 @@
       border-radius: 7px;
       h1 {
         color: white;
+        @media screen and (max-width: 376px) {
+          font-size: 1.3rem;
+        }
       }
       h6 {
         color: white;
+        @media screen and (max-width: 376px) {
+          font-size: 0.6rem;
+        }
       }
       &:last-child {
         margin-right: 0;
@@ -44,12 +50,32 @@
           color: red;
         }
       }
+      @media screen and (max-width: 574px) {
+        padding: 0.8rem 1rem 0.8rem 1rem;
+      }
+
+      @media screen and (max-width: 448px) {
+        padding: 0.8rem 1rem 0.8rem 1rem;
+      }
+      @media screen and (max-width: 376px) {
+        margin-right: 1rem;
+      }
     }
   }
 
   .amount {
     width: auto;
     height: auto;
+    margin-top: 1rem;
+
+    h6 {
+      color: white;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+      @media screen and (max-width: 376px) {
+        font-size: 0.8rem;
+      }
+    }
 
     .input-cover {
       position: relative;
@@ -71,6 +97,13 @@
           -webkit-box-shadow: 2px 3.3px 10px 0px rgba(216, 28, 188, 0.75);
           -moz-box-shadow: 2px 3.3px 10px 0px rgba(216, 28, 188, 0.75);
         }
+
+        @media screen and (max-width: 574px) {
+          padding: 1rem 9rem 1rem 9rem;
+        }
+        @media screen and (max-width: 574px) {
+          padding: 1rem 5rem 1rem 5rem;
+        }
       }
 
       img {
@@ -80,5 +113,12 @@
         transform: translateY(70%);
       }
     }
+  }
+
+  @media screen and (max-width: 574px) {
+    padding: 5rem 1rem 5rem 1rem;
+  }
+  @media screen and (max-width: 448px) {
+    padding: 4rem 0.5rem 4rem 0.5rem;
   }
 }

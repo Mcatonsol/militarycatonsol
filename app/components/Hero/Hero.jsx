@@ -10,7 +10,7 @@ const Hero = () => {
                 WELCOME TO
             </h4>
             <h1>
-                MCAT
+                <span>M</span>CAT
             </h1>
             <p>
                 Military cat(MCAT) is the first of its kind and will play the role of the biggest memecoin on solana blockchain with different opportunities and utilities.
