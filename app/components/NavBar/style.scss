@@ -10,6 +10,20 @@ nav {
   background-color: transparent;
   position: sticky;
   top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.774227142333984px);
+
+  @media screen and (max-width: 1125px) {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+  }
+  @media screen and (max-width: 375px) {
+    width: 90vw;
+  }
+  @media screen and (max-width: 320px) {
+    width: 100vw;
+  }
 }
 
 .nav-left {
@@ -55,6 +69,10 @@ nav {
       margin-right: 1rem;
       cursor: pointer;
     }
+
+    @media screen and (max-width: 1125px) {
+      display: none;
+    }
   }
 }
 
@@ -64,4 +82,11 @@ nav {
   img {
     margin-left: 1rem;
   }
+  @media screen and (max-width: 320px) {
+    display: none;
+  }
+}
+
+.ham {
+  display: none;
 }

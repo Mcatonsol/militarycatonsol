@@ -8,6 +8,7 @@ import './style.scss'
 
 const NavBar = () => {
   const [nav, setNav] = useState('hero');
+  const [smallNav, setSmallNav] = useState(false)
   const toggleNav = (e)=>setNav(e.target.id)
   
   return (
@@ -42,6 +43,28 @@ const NavBar = () => {
           <Image src={images.telegram} alt='telegram image' width={40} height={40} placeholder="blur" quality={100}/>
           </Link>   
       </div>
+      <div className="ham"></div>
+      { smallNav?
+        <div className="small-navigation">
+          <Link href='#hero' id='hero' className={`${nav === "hero"? "selected" : ""}`}
+          onClick={toggleNav}>HOME</Link>
+
+          <Link href='#buy' id='buy' className={`${nav === "buy"? "selected" : ""}`}
+          onClick={toggleNav}>HOW TO BUY</Link>
+
+          <Link href='#about'id='about' className={`${nav === "about"? "selected" : ""}`}
+          onClick={toggleNav}>ABOUT US</Link>
+
+          <Link href='#util' id='util' className={`${nav === "util"? "selected" : ""}`}
+          onClick={toggleNav}>UTILITIES</Link>
+
+          <Link href='#why' id='why' className={`${nav === "why"? "selected" : ""}`}
+          onClick={toggleNav}>WHY MCAT</Link>
+          <Button type='button' text='Buy Now' className='nav-button'/>
+        </div>
+        :
+        <></>
+      }
     </nav>
   )
 }

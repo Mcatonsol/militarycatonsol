@@ -10,6 +10,9 @@ import qrCode from "./qr-code.jpeg";
 import telegram from "./telegram.png";
 import twitter from "./twitter.png";
 import solana from "./solana.png";
+import wallet from "./wallet.png";
+import amount from "./amount.png";
+import buy from "./buy.png";
 
 const images = {
   mcatLogin,
@@ -24,6 +27,9 @@ const images = {
   telegram,
   twitter,
   solana,
+  wallet,
+  buy,
+  amount,
 };
 
 export default images;
