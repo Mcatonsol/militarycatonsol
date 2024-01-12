@@ -16,7 +16,7 @@ const Main = () => {
                     Join ROSHI Now
                 </h2>
                 <p>
-                    ROSHI is currently in its presale phase, giving you the opportunity to buy ROSHI before the official launch. Join the ROSHI community now and secure your place in the pack!
+                    MCAT is currently in its presale phase, giving you the opportunity to buy MCAT before the official launch. Join the MCAT community now and secure your place in the pack!
                 </p>
                 <Button type='button' text='Buy Now' className='nav-button'/>
             </div>
