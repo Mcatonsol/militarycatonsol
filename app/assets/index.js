@@ -9,6 +9,7 @@ import mcat8 from "./mcat8.jpeg";
 import qrCode from "./qr-code.jpeg";
 import telegram from "./telegram.png";
 import twitter from "./twitter.png";
+import solana from "./solana.png";
 
 const images = {
   mcatLogin,
@@ -22,6 +23,7 @@ const images = {
   qrCode,
   telegram,
   twitter,
+  solana,
 };
 
 export default images;
