@@ -13,7 +13,7 @@ const Main = () => {
                     Presale Is Live 
                 </h2>
                 <h2>
-                    Join ROSHI Now
+                    Join MCAT Now
                 </h2>
                 <p>
                     MCAT is currently in its presale phase, giving you the opportunity to buy MCAT before the official launch. Join the MCAT community now and secure your place in the pack!
