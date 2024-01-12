@@ -1,5 +1,5 @@
 import { Fraunces } from "next/font/google";
-import "./globals.css";
+import "./globals.scss";
 import { NavBar } from "./components";
 
 const fraunces = Fraunces({
