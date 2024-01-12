@@ -1,0 +1,31 @@
+.hero {
+  width: 75vw;
+  height: auto;
+  margin: auto;
+  max-width: 2560px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+
+  .left {
+    width: auto;
+    height: auto;
+    h4 {
+      color: white;
+      font-weight: lighter;
+      font-size: 1.7rem;
+    }
+    h1 {
+      color: white;
+      font-weight: 900;
+      font-size: 8rem;
+    }
+    p {
+      color: white;
+      width: 30vw;
+      font-weight: normal;
+      font-size: 1.2rem;
+    }
+  }
+}
