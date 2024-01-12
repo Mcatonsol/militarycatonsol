@@ -1,0 +1,37 @@
+main {
+  margin-top: 15rem;
+  height: auto;
+  width: 75vw;
+  max-width: 2560px;
+  margin: 15rem auto;
+  margin-bottom: 0;
+}
+.presale-is-live {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .left {
+    h2 {
+      color: white;
+      font-size: 2rem;
+      font-weight: 600;
+      margin: 0.5rem 0 0.5rem 0;
+    }
+    p {
+      color: white;
+      width: 30vw;
+      font-weight: normal;
+      font-size: 1.2rem;
+      line-height: 1.75rem;
+      margin: 2rem 0 1.7rem 0;
+    }
+  }
+  .right {
+    img {
+      border-radius: 15px;
+    }
+  }
+}
