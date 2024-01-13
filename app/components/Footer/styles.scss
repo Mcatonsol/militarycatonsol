@@ -1,0 +1,25 @@
+footer {
+  width: 100vw;
+  max-width: 2560px;
+  margin-top: 7rem;
+  padding: 5rem 0 5rem 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(40.774227142333984px);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  small {
+    color: white;
+    display: block;
+    margin-top: 3rem;
+  }
+}
+
+.footer-logo {
+  border-radius: 50%;
+  border: 9px solid rgb(202, 0, 0);
+  border: 9px solid rgb(233, 0, 0);
+  border-inline: 1px black;
+}
