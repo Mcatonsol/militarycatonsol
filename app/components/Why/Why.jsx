@@ -5,7 +5,7 @@ import images from '../../assets'
 const Why = () => {
   return (
     <div id='why' className='why'>
-        <div className="left">
+        <div className="left-why">
             <h2>
                 Why Choose <span>M</span>CAT
             </h2>

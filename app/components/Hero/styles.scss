@@ -1,4 +1,88 @@
+.left {
+  width: auto;
+  width: fit-content;
+  height: auto;
+  max-width: 2560px;
+  overflow-x: hidden;
+  // margin-right: 11rem;
+  margin: auto;
+  padding-top: 9rem;
+  h4 {
+    color: white;
+    font-weight: lighter;
+    font-size: 1.7rem;
+    text-align: justify;
+    i {
+      font-weight: 400;
+      font-size: 1.5rem;
+      @media screen and (max-width: 520px) {
+        font-size: 1.3rem;
+      }
+    }
+    @media screen and (max-width: 520px) {
+      font-size: 1.5rem;
+    }
+    @media screen and (max-width: 520px) {
+      font-size: 1.4rem;
+    }
+  }
+  h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 10.5rem;
+    span {
+      color: red;
+    }
+    @media screen and (max-width: 1334px) {
+      font-size: 12rem;
+    }
+    @media screen and (max-width: 659px) {
+      font-size: 10rem;
+    }
+    @media screen and (max-width: 520px) {
+      font-size: 7rem;
+    }
+    @media screen and (max-width: 376px) {
+      font-size: 6rem;
+      margin: 1rem 0 1rem 0;
+    }
+  }
+  p {
+    color: white;
+    width: 30vw;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 1.75rem;
+    @media screen and (max-width: 1334px) {
+      width: 60vw;
+    }
+    @media screen and (max-width: 659px) {
+      width: 65vw;
+    }
+    @media screen and (max-width: 520px) {
+      font-size: 1.1rem;
+    }
+    @media screen and (max-width: 574px) {
+      width: 70vw;
+    }
+    @media screen and (max-width: 425px) {
+      width: 90vw;
+    }
+  }
+
+  @media screen and (max-width: 1334px) {
+    margin-bottom: 5rem;
+  }
+  @media screen and (max-width: 1125px) {
+    margin-bottom: 4rem;
+  }
+  @media screen and (max-width: 365px) {
+    margin-bottom: 2rem;
+  }
+}
+
 .hero {
+  overflow-x: hidden;
   width: 75vw;
   height: auto;
   margin: auto;
@@ -28,78 +112,55 @@
     padding-top: 6.5rem;
   }
 
-  .left {
-    width: auto;
+  .new-left {
+    width: 30vw;
     height: auto;
-    // margin-right: 11rem;
-    h4 {
-      color: white;
-      font-weight: lighter;
-      font-size: 1.7rem;
-      text-align: justify;
-      i {
-        font-weight: 400;
-        font-size: 1.5rem;
-        @media screen and (max-width: 520px) {
-          font-size: 1.3rem;
-        }
-      }
-      @media screen and (max-width: 520px) {
-        font-size: 1.5rem;
-      }
-      @media screen and (max-width: 520px) {
-        font-size: 1.4rem;
-      }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    @media screen and (max-width: 1335px) {
+      margin-bottom: 1.5rem;
     }
-    h1 {
+    @media screen and (max-width: 426px) {
+      width: auto;
+    }
+    h2 {
       color: white;
-      font-weight: 900;
-      font-size: 10.5rem;
+      font-size: 2.3rem;
+      font-weight: 400;
+      text-align: center;
       span {
         color: red;
       }
-      @media screen and (max-width: 1334px) {
-        font-size: 12rem;
+
+      @media screen and (max-width: 375px) {
+        font-size: 1.8rem;
       }
-      @media screen and (max-width: 659px) {
-        font-size: 10rem;
-      }
-      @media screen and (max-width: 520px) {
-        font-size: 7rem;
-      }
-      @media screen and (max-width: 376px) {
-        font-size: 6rem;
-        margin: 1rem 0 1rem 0;
+      @media screen and (max-width: 320px) {
+        font-size: 1.9rem;
       }
     }
     p {
       color: white;
-      width: 30vw;
-      font-weight: normal;
-      font-size: 1.3rem;
-      line-height: 1.75rem;
-      @media screen and (max-width: 1334px) {
-        width: 60vw;
-      }
-      @media screen and (max-width: 659px) {
-        width: 65vw;
-      }
-      @media screen and (max-width: 520px) {
-        font-size: 1.1rem;
-      }
-      @media screen and (max-width: 574px) {
-        width: 70vw;
-      }
-      @media screen and (max-width: 425px) {
-        width: 90vw;
+      font-size: 1.4rem;
+      font-weight: 400;
+      text-align: center;
+      margin: 2rem 0 2rem 0;
+      @media screen and (max-width: 365px) {
+        font-size: 1.2rem;
+        margin: 1.2rem 0 1.2rem 0;
       }
     }
 
-    @media screen and (max-width: 1334px) {
-      margin-bottom: 12.1rem;
-    }
-    @media screen and (max-width: 1125px) {
-      margin-bottom: 4rem;
+    h4 {
+      color: white;
+      // width: 10vw;
+      font-weight: lighter;
+      font-size: 1.1rem;
+      line-height: 1.77rem;
+      text-align: center;
+      margin-top: 2rem;
     }
   }
 
@@ -119,7 +180,7 @@
       height: 350px;
     }
     @media screen and (max-width: 375px) {
-      width: 320px;
+      width: 310px;
       height: 300px;
     }
   }
