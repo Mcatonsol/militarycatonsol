@@ -1,12 +1,13 @@
 import React from 'react'
 import './styles.scss'
-import { CardCounter } from '../index'
+import { Button, CardCounter } from '../index'
 import Image from 'next/image'
-import images from '../../assets'
+import images from '../../assets';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <div id='hero' className='hero'>
+    <>
         <div className="left">
             <h4>
                 don't expect me to say 
@@ -21,6 +22,23 @@ const Hero = () => {
                 Military cat(MCAT) is first of its kind and will play the role of the biggest memecoin on solana blockchain with different opportunities and utilities.
             </p>
         </div>
+       <div id='hero' className='hero'>
+        <div className="new-left">
+            <h2>
+                <span>M</span>CAT contract:
+            </h2>
+            <p>
+                2jDFuYLchj6WfVjZQ5V8
+                <br />
+                rvB3Eni32keXivPabiDVergG
+            </p>
+            <Link href='https://solscan.io/token/2jDFuYLchj6WfVjZQ5V8rvB3Eni32keXivPabiDVergG'>
+            <Button text='View on Solscan' className='nav-button' type='button'/>
+            </Link>
+            <h4>
+                Max Supply 10billion MCAT
+            </h4>
+        </div>
         <Image src={images.tokenomics} alt='tokenomics' className='tokenomics' width={400} height={400} placeholder='blur' />
         <div className="access">
             <h2>
@@ -32,6 +50,7 @@ const Hero = () => {
         </div>
         <CardCounter/>
     </div>
+    </>
   )
 }
 

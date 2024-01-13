@@ -3,7 +3,7 @@ import './styles.scss'
 const About = () => {
   return (
     <div id='about' className='about'>
-        <div className="left">
+        <div className="left-about">
             <h2>
                 The Origin of MCAT
             </h2>

@@ -38,10 +38,12 @@ const NavBar = () => {
         </div>
       </div>
       <div className="nav-right">
+          <Link href='#timer'>
           <Button type='button' text='Buy Now' className='nav-button'/>
-          <Link href='https://t.me/militarycatonsol'>
+          </Link>
+          {/* <Link href='https://t.me/militarycatonsol'>
           <Image src={images.telegram} alt='telegram image' width={40} height={40} placeholder="blur" quality={100}/>
-          </Link>   
+          </Link>    */}
       </div>
       <div className="ham"></div>
       { smallNav?

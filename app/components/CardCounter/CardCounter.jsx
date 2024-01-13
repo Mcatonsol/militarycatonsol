@@ -30,7 +30,7 @@ const CardCounter = () => {
     
     
   return (
-    <div className='counter'>
+    <div className='counter' id='timer'>
         <h2>
             Presale Ends and Launch Happens In:
         </h2>
