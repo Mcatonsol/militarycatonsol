@@ -1,6 +1,6 @@
 import { Fraunces } from "next/font/google";
 import "./globals.scss";
-import { NavBar } from "./components";
+import { Footer, NavBar } from "./components";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
       <body className={fraunces.className}>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
