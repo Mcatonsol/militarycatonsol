@@ -1,7 +1,7 @@
 import images from '@/app/assets';
 import Image from 'next/image';
 import React from 'react';
-import {Button, About} from "../index";
+import {Button, About, UtilitySection} from "../index";
 import './styles.scss'
 
 const Main = () => {
@@ -75,6 +75,7 @@ const Main = () => {
             </div>
         </div>
         <About/>
+        <UtilitySection/>
     </main>
   )
 }
