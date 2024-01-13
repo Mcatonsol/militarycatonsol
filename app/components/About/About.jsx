@@ -8,7 +8,7 @@ const About = () => {
                 The Origin of MCAT
             </h2>
             <p>
-                MCAT was born out of a vision to create a memecoin that goes beyond the norm. Inspired by the success of other dog-themed meme projects on Solana, MCAT joins the pack with the goal of bringing dog lovers and crypto enthusiasts together on this exciting blockchain. The idea was to create a fun and engaging digital currency that incorporates not only humor but also meaningful utilities.
+                MCAT was born out of a vision to create a memecoin that goes beyond the norm. Inspired by the success of other cat-themed meme projects on Solana, MCAT joins the pack with the goal of bringing cat lovers and crypto enthusiasts together on this exciting blockchain. The idea was to create a fun and engaging digital currency that incorporates not only humor but also meaningful utilities.
             </p>
         </div>
         <div className="right">

@@ -23,9 +23,9 @@ const Why = () => {
                     </span>
                 </li>
                 <li>
-                    Movement Uniting Dog Lovers and Crypto Enthusiasts
+                    Movement Uniting Cat Lovers and Crypto Enthusiasts
                      <span>
-                        MCAT bridges the gap between the love for dogs and the world of cryptocurrency.
+                        MCAT bridges the gap between the love for cats and the world of cryptocurrency.
                     </span>
                 </li>
                 <li>

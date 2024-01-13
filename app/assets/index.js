@@ -14,6 +14,7 @@ import wallet from "./wallet.png";
 import amount from "./amount.png";
 import buy from "./buy.png";
 import catSecond from "./cat-second.jpeg";
+import tokenomics from "./tokenomics.jpeg";
 const images = {
   mcatLogin,
   mcat2,
@@ -31,6 +32,7 @@ const images = {
   buy,
   amount,
   catSecond,
+  tokenomics,
 };
 
 export default images;
