@@ -18,7 +18,7 @@ const Hero = () => {
               <span>M</span>CAT
             </h1>
             <p>
-                Military cat(MCAT) is the first of its kind and will play the role of the biggest memecoin on solana blockchain with different opportunities and utilities.
+                Military cat(MCAT) is first of its kind and will play the role of the biggest memecoin on solana blockchain with different opportunities and utilities.
             </p>
         </div>
         <Image src={images.tokenomics} alt='tokenomics' className='tokenomics' width={400} height={400} placeholder='blur' />
