@@ -1,7 +1,7 @@
 import images from '@/app/assets';
 import Image from 'next/image';
 import React from 'react';
-import {Button} from "../index";
+import {Button, About} from "../index";
 import './styles.scss'
 
 const Main = () => {
@@ -74,6 +74,7 @@ const Main = () => {
                         <Image src={images.mcat5} alt='buy cat image' width={430} height={450}/>
             </div>
         </div>
+        <About/>
     </main>
   )
 }

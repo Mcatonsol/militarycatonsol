@@ -53,9 +53,6 @@ const CardCounter = () => {
             </div>
         </div>
         <div className="amount">
-            <h6>
-                Amount in SOL You Pay:
-            </h6>
             <div className="input-cover">
                 <input type="text" placeholder='Min 0.25 SOL | Max 10 SOL' name="sol-amount" id="" value={solAmount} onChange={(e)=>setSolAmount(e.target.value)}/>
                 <Image src={images.solana} alt='solana image' width={20} height={20}/>
