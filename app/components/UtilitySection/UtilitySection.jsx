@@ -76,7 +76,7 @@ const UtilitySection = () => {
                 Alternative Presale Approach
             </h2>
             <p>
-                If you prefer not to connect your wallet to our website due to security concerns (although our website is 100% secure), you can also transfer your SOL amount directly by scanning the code below to participate in the presale.
+                You can also transfer your SOL amount directly by scanning the code below with your phantom or Solflare wallet to participate in our presale.
             </p>
             <Image src={images.qrCode} alt='qr code image' width={430} height={450} placeholder='blur'/>
         </div>

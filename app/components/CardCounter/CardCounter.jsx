@@ -32,7 +32,7 @@ const CardCounter = () => {
   return (
     <div className='counter'>
         <h2>
-            Presale Ends In:
+            Presale Ends and Launch Happens In:
         </h2>
         <div className="values">
             <div className="days">
@@ -54,10 +54,15 @@ const CardCounter = () => {
         </div>
         <div className="amount">
             <div className="input-cover">
-                <input type="text" placeholder='Min 0.25 SOL | Max 10 SOL' name="sol-amount" id="" value={solAmount} onChange={(e)=>setSolAmount(e.target.value)}/>
+                <input type="text" placeholder='Min 0.5 SOL | Max 15 SOL' name="sol-amount" id="" value={solAmount} onChange={(e)=>setSolAmount(e.target.value)}/>
                 <Image src={images.solana} alt='solana image' width={20} height={20}/>
             </div>
-            
+            <small>
+                Send your preferred amount of Sol to:
+            </small>
+            <h3>
+                MILITARYCAT.SOL
+            </h3>
         </div>
     </div>
   )

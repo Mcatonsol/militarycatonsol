@@ -10,15 +10,11 @@ const Main = () => {
         <div className="presale-is-live">
             <div className="left">
                 <h2>
-                    Presale Is <span>Live</span> 
-                </h2>
-                <h2>
-                    Join MCAT Now
+                    Marketing plans
                 </h2>
                 <p>
-                    MCAT is currently in its presale phase, giving you the opportunity to buy MCAT before the official launch. Join the MCAT community now and secure your place in the pack!
+                    <span>M</span>CAT will be announced by many influencers and our partners that is yet to be disclosed, <i>Meow...</i>
                 </p>
-                <Button type='button' text='Buy Now' className='nav-button'/>
             </div>
             <div className="right">
                 <Image src={images.mcat2} alt='live image' width={430} height={450} placeholder='blur'/>
@@ -51,7 +47,7 @@ const Main = () => {
                                 Choose Amount
                             </h4>
                             <p>
-                                Take charge and pick how much MCAT you want. (Min 0.25 SOL | Max 10 SOL)
+                                Take charge and pick how much MCAT you want. (Min 0.5 SOL | Max 15 SOL)
                             </p>
                         </div>
                     </div>
