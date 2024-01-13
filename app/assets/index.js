@@ -13,7 +13,7 @@ import solana from "./solana.png";
 import wallet from "./wallet.png";
 import amount from "./amount.png";
 import buy from "./buy.png";
-
+import catSecond from "./cat-second.jpeg";
 const images = {
   mcatLogin,
   mcat2,
@@ -30,6 +30,7 @@ const images = {
   wallet,
   buy,
   amount,
+  catSecond,
 };
 
 export default images;

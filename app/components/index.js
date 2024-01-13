@@ -5,3 +5,4 @@ export { default as CardCounter } from "./CardCounter/CardCounter";
 export { default as Main } from "./Main/Main";
 export { default as About } from "./About/About";
 export { default as UtilitySection } from "./UtilitySection/UtilitySection";
+export { default as Why } from "./Why/Why";
