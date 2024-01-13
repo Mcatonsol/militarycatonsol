@@ -20,7 +20,7 @@ const Main = () => {
                 <Image src={images.mcat2} alt='live image' width={430} height={450} placeholder='blur'/>
             </div>
         </div>
-        <div className="buy" id='buy'>
+        {/* <div className="buy" id='buy'>
             <div className="left">
                 <h2>
                     How to buy $<span>m</span>cat presale
@@ -69,7 +69,7 @@ const Main = () => {
             <div className="right">
                         <Image src={images.mcat5} alt='buy cat image' width={430} height={450}/>
             </div>
-        </div>
+        </div> */}
         <About/>
         <UtilitySection/>
         <Why/>

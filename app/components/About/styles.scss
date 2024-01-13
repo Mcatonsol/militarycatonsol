@@ -17,6 +17,7 @@
       font-weight: 600;
       margin: 0 0 2rem 0;
       position: relative;
+      text-align: center;
       &::after {
         content: "";
         width: 5rem;
@@ -24,6 +25,8 @@
         background-color: orange;
         position: absolute;
         left: 0;
+        right: 0;
+        margin: auto;
         bottom: -1rem;
       }
       @media screen and (max-width: 320px) {
@@ -36,6 +39,7 @@
       font-weight: normal;
       font-size: 1.2rem;
       line-height: 1.77rem;
+      text-align: center;
       //   margin: 0 0 1.7rem 0;
 
       @media screen and (max-width: 679px) {
@@ -52,7 +56,7 @@
   }
 
   .left {
-    margin-right: 2rem;
+    // margin-right: 2rem;
     @media screen and (max-width: 679px) {
       margin: 0 0 1rem 0;
     }
