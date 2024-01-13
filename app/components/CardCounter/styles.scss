@@ -82,6 +82,7 @@
         border-width: thin;
         &::placeholder {
           color: white;
+          font-weight: 900;
         }
         &:focus {
           box-shadow: 2px 3.3px 10px 0px rgba(216, 28, 188, 0.75);
