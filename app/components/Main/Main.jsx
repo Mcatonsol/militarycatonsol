@@ -23,7 +23,7 @@ const Main = () => {
         <div className="buy" id='buy'>
             <div className="left">
                 <h2>
-                    How to buy <span>$mcat</span> presale
+                    How to buy $<span>m</span>cat presale
                 </h2>
                 <p>
                     Ready to dive into the MCAT revolution? Purchasing MCAT Presale is a breeze! Follow our simple steps to join the MCAT community:
