@@ -1,8 +1,7 @@
 main {
   margin-top: 15rem;
   height: auto;
-  width: 75vw;
-  max-width: 2560px;
+  width: auto;
   margin: 15rem auto;
   margin-bottom: 0;
 
@@ -11,11 +10,13 @@ main {
   }
 }
 .presale-is-live {
-  width: auto;
+  width: 75vw;
+  max-width: 2560px;
   height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
   margin-bottom: 12rem;
 
   .left {
@@ -126,6 +127,13 @@ main {
             font-size: 1rem;
             line-height: 1.75rem;
             margin: 0.6rem 0 1rem 0;
+
+            @media screen and (max-width: 674px) {
+              width: 50vw;
+            }
+            @media screen and (max-width: 425px) {
+              width: 70vw;
+            }
           }
         }
       }

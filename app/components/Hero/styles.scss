@@ -50,6 +50,9 @@
     flex-direction: column;
     justify-content: space-around;
   }
+  @media screen and (max-width: 674px) {
+    margin-top: 5rem;
+  }
   @media screen and (max-width: 574px) {
     width: 100vw;
   }

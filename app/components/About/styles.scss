@@ -1,0 +1,66 @@
+.about {
+  width: 100vw;
+  max-width: 2560px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: rgba(255, 0, 0, 0.874);
+  margin-top: 12rem;
+  padding: 1rem 0 1rem 0;
+
+  .left,
+  .right {
+    h2 {
+      color: white;
+      font-size: 2rem;
+      font-weight: 600;
+      margin: 0 0 2rem 0;
+      position: relative;
+      &::after {
+        content: "";
+        width: 5rem;
+        height: 0.1rem;
+        background-color: orange;
+        position: absolute;
+        left: 0;
+        bottom: -1rem;
+      }
+      @media screen and (max-width: 320px) {
+        font-size: 1.9rem;
+      }
+    }
+    p {
+      color: white;
+      width: 40vw;
+      font-weight: normal;
+      font-size: 1.2rem;
+      line-height: 1.77rem;
+      //   margin: 0 0 1.7rem 0;
+
+      @media screen and (max-width: 679px) {
+        width: 70vw;
+      }
+
+      @media screen and (max-width: 485px) {
+        width: 90vw;
+      }
+      @media screen and (max-width: 320px) {
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  .left {
+    margin-right: 2rem;
+    @media screen and (max-width: 679px) {
+      margin: 0 0 1rem 0;
+    }
+  }
+
+  @media screen and (max-width: 679px) {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
