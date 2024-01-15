@@ -110,16 +110,25 @@
     small {
       color: white;
       font-weight: normal;
-      font-size: 1rem;
+      font-size: 1.1rem;
       line-height: 1.75rem;
       margin: 1.2rem 0 1.7rem 0;
       display: block;
     }
+    .fill-form {
+      color: white;
+      font-weight: normal;
+      font-size: 1rem;
+      // line-height: 1.7rem;
+      margin: 1.2rem 0 1.7rem 0;
+      display: block;
+      text-align: center;
+    }
     h3 {
       color: rgb(250, 24, 24);
       font-weight: bold;
-      font-size: 1rem;
-      line-height: 1.75rem;
+      font-size: 1.25rem;
+      // line-height: 1.75rem;
       margin: 1rem 0 1.7rem 0;
       text-align: center;
     }
