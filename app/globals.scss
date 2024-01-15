@@ -51,23 +51,11 @@ body {
     rgba(51, 57, 191, 1) 100%
   );
   cursor: pointer;
-  animation: flow 14s ease-in-out infinite;
-
-  @keyframes flow {
-    0% {
-      background: linear-gradient(
-        155deg,
-        rgb(201, 34, 34) 0%,
-        rgba(51, 57, 191, 1) 100%
-      );
-    }
-
-    100% {
-      background: linear-gradient(
-        -155deg,
-        rgb(206, 39, 39) 0%,
-        rgba(51, 57, 191, 1) 100%
-      );
-    }
+  &:hover {
+    background: linear-gradient(
+      -155deg,
+      rgb(206, 39, 39) 0%,
+      rgba(51, 57, 191, 1) 100%
+    );
   }
 }

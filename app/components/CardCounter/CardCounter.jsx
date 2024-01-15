@@ -3,10 +3,6 @@ import React, {useState} from 'react'
 import './styles.scss'
 import images from "../../assets"
 import Image from 'next/image'
-import {Button} from '../index';
-import Link from 'next/link';
-import { toast } from 'react-toastify'
-
 const CardCounter = () => {
     const [solAmount, setSolAmount] = useState('');
     const endDate  = new Date('Jan 18, 2024 00:00:00').getTime();
@@ -32,21 +28,6 @@ const CardCounter = () => {
         }
     }, 1000);
     
-    const handleChange = ()=>{
-        if(solAmount.match(/[!-\-]|\/|[:-~]/) || solAmount.match(" ")){
-            toast.error('invalid input',{
-                position: 'top-right'
-            })
-        }
-        else if(solAmount.match(/[0-9]/) && solAmount.match("")){
-            toast.success('correct input',{
-                position: 'top-right'
-            })
-        }
-        setTimeout(() => {
-            toast.dismiss()
-            }, 4000);
-    }
     
   return (
     <div className='counter' id='timer'>
@@ -73,9 +54,7 @@ const CardCounter = () => {
         </div>
         <div className="amount">
             <div className="input-cover">
-                <input type="text" placeholder='Min 0.5 SOL | Max 15 SOL' name="sol-amount" id="" value={solAmount} 
-                onChange={(e)=>setSolAmount(e.target.value)}
-                onKeyUp={handleChange}/>
+                <input type="text" placeholder='Min 0.5 SOL | Max 15 SOL' name="sol-amount" id="" value={solAmount} onChange={(e)=>setSolAmount(e.target.value)}/>
                 <Image src={images.solana} alt='solana image' width={20} height={20}/>
             </div>
             <small>
@@ -84,14 +63,6 @@ const CardCounter = () => {
             <h3>
                 MILITARYCAT.SOL
             </h3>
-            <small className='fill-form'>
-                Then fill the form below:
-            </small>
-            <Link href='https://docs.google.com/forms/d/e/1FAIpQLSfR0zjHXws-C27MYOosDhyDi_Pmte9DOr88fM_3TTE0PMitlw/viewform'>
-                
-                <Button text='fill  form' type='button' className='nav-button'
-            style={{margin : "auto", display : 'block'}}/>
-            </Link>
         </div>
     </div>
   )

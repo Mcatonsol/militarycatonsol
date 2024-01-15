@@ -13,7 +13,7 @@ const Main = () => {
                     Marketing plans
                 </h2>
                 <p>
-                    <span>M</span>CAT is backed by many influencers and partners that are yet to be disclosed, so there's already a big plan for marketing, <i>Meow...</i>
+                    <span>M</span>CAT will be announced by many influencers and our partners that is yet to be disclosed, <i>Meow...</i>
                 </p>
             </div>
             <div className="right">
