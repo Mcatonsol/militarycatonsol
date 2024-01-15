@@ -17,9 +17,50 @@ footer {
   }
 }
 
-.footer-logo {
-  border-radius: 50%;
-  border: 9px solid rgb(202, 0, 0);
-  border: 9px solid rgb(233, 0, 0);
-  border-inline: 1px black;
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .footer-logo {
+    border-radius: 50%;
+    border: 9px solid rgb(202, 0, 0);
+    border: 9px solid rgb(233, 0, 0);
+    border-inline: 1px black;
+  }
+}
+
+.subscribe {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.2rem;
+
+  label {
+    color: white;
+    margin-bottom: 1rem;
+  }
+  #input {
+    color: white;
+    background: rgba(95, 95, 95, 0.5);
+    backdrop-filter: blur(40.774227142333984px);
+    border-radius: 10px;
+    outline: none;
+    border-width: thin;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-bottom: 1rem;
+
+    &:focus {
+      box-shadow: 2px 3.3px 10px 0px rgba(216, 28, 188, 0.75);
+      -webkit-box-shadow: 2px 3.3px 10px 0px rgba(216, 28, 188, 0.75);
+      -moz-box-shadow: 2px 3.3px 10px 0px rgba(216, 28, 188, 0.75);
+    }
+
+    &::placeholder {
+      color: white;
+      font-weight: bold;
+    }
+  }
 }

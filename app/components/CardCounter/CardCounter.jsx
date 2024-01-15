@@ -32,21 +32,21 @@ const CardCounter = () => {
         }
     }, 1000);
     
-    const handleChange = ()=>{
-        if(solAmount.match(/[!-\-]|\/|[:-~]/) || solAmount.match(" ")){
-            toast.error('invalid input',{
-                position: 'top-right'
-            })
-        }
-        else if(solAmount.match(/[0-9]/) && solAmount.match("")){
-            toast.success('correct input',{
-                position: 'top-right'
-            })
-        }
-        setTimeout(() => {
-            toast.dismiss()
-            }, 4000);
-    }
+    // const handleChange = ()=>{
+    //     if(solAmount.match(/[!-\-]|\/|[:-~]/) || solAmount.match(" ")){
+    //         toast.error('invalid input',{
+    //             position: 'top-right'
+    //         })
+    //     }
+    //     else if(solAmount.match(/[0-9]/) && solAmount.match("")){
+    //         toast.success('correct input',{
+    //             position: 'top-right'
+    //         })
+    //     }
+    //     setTimeout(() => {
+    //         toast.dismiss()
+    //         }, 4000);
+    // }
     
   return (
     <div className='counter' id='timer'>
@@ -74,8 +74,10 @@ const CardCounter = () => {
         <div className="amount">
             <div className="input-cover">
                 <input type="text" placeholder='Min 0.5 SOL | Max 15 SOL' name="sol-amount" id="" value={solAmount} 
-                onChange={(e)=>setSolAmount(e.target.value)}
-                onKeyUp={handleChange}/>
+                readOnly
+                // onChange={(e)=>setSolAmount(e.target.value)}
+                // onKeyUp={handleChange}
+                />
                 <Image src={images.solana} alt='solana image' width={20} height={20}/>
             </div>
             <small>
