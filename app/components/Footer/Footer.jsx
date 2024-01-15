@@ -12,8 +12,8 @@ const Footer = () => {
     const [valid, setValid] = useState(false);
     // input form validation function
     const handleChange = ()=>{
-        if((!email.match(/[a-z]@gmail.com/) &&
-        !email.match(/[a-z][0-9]@gmail.com/)) ||
+        if((!email.match(/[a-zA-Z]@gmail.com/) &&
+        !email.match(/[a-zA-Z][0-9]@gmail.com/)) ||
       email.match(/[!-\-]|\/|[:-\?]|[\[-`]|[\{-~}]|\s/) ||
       email.length < 12){
             // toast.error('invalid input',{
@@ -21,13 +21,13 @@ const Footer = () => {
             // })
             setValid(false);
         }
-        else if(email.match(/[a-z][0-9]@gmail.com/) && email.length >= 12){
+        else if(email.match(/[a-zA-Z][0-9]@gmail.com/) && email.length >= 12){
             toast.success('correct input',{
                 position: 'top-right'
             })
             setValid(true);
         }
-        else if(email.match(/[a-z]@gmail.com/) && email.length >= 12){
+        else if(email.match(/[a-zA-Z]@gmail.com/) && email.length >= 12){
             toast.success('correct input',{
                 position: 'top-right'
             })
