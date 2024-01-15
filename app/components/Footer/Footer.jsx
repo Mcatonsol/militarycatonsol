@@ -16,9 +16,10 @@ const Footer = () => {
         !email.match(/[a-z][0-9]@gmail.com/)) ||
       email.match(/[!-\-]|\/|[:-\?]|[\[-`]|[\{-~}]|\s/) ||
       email.length < 12){
-            toast.error('invalid input',{
-                position: 'top-right'
-            })
+            // toast.error('invalid input',{
+            //     position: 'top-right'
+            // })
+            setValid(false);
         }
         else if(email.match(/[a-z][0-9]@gmail.com/) && email.length >= 12){
             toast.success('correct input',{
@@ -68,7 +69,7 @@ const Footer = () => {
             </div>
             <div className="subscribe">
                 <label htmlFor="subscribe">
-                    Subscribe Our News Letter
+                    Subscribe To Our News Letter
                 </label>
                 <input type="text" name="email" placeholder='Enter Gmail Address' id="input" value={email}
                 onChange={e=>setEmail(e.target.value)}
