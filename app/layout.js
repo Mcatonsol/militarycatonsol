@@ -1,6 +1,8 @@
 import { Fraunces } from "next/font/google";
 import "./globals.scss";
 import { Footer, NavBar } from "./components";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -19,6 +21,7 @@ export default function RootLayout({ children }) {
         <NavBar />
         {children}
         <Footer />
+        <ToastContainer />
       </body>
     </html>
   );
