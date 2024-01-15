@@ -68,7 +68,7 @@ const Footer = () => {
             </div>
             <div className="subscribe">
                 <label htmlFor="subscribe">
-                    Sign Up to Our News Letter:
+                    Subscribe Our News Letter
                 </label>
                 <input type="text" name="email" placeholder='Enter Gmail Address' id="input" value={email}
                 onChange={e=>setEmail(e.target.value)}
