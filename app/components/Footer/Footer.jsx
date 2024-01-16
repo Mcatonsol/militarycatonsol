@@ -69,9 +69,9 @@ const Footer = () => {
             </div>
             <div className="subscribe">
                 <label htmlFor="subscribe">
-                    Subscribe To Our News Letter
+                    Subscribe To Our Newsletter
                 </label>
-                <input type="text" name="email" placeholder='Enter Gmail Address' id="input" value={email}
+                <input type="text" name="email" placeholder='Enter Mail Address' id="input" value={email}
                 onChange={e=>setEmail(e.target.value)}
                 onKeyUp={handleChange}
                 />

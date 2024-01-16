@@ -35,16 +35,23 @@ nav {
     align-items: center;
     cursor: pointer;
 
-    img {
-      border-radius: 50%;
-      border: 9px solid rgb(202, 0, 0);
-      border: 9px solid rgb(233, 0, 0);
-      border-inline: 1px black;
-    }
-    span {
-      font-weight: 700;
-      font-size: 1.5rem;
-      color: white;
+    a {
+      text-decoration: none;
+      width: auto;
+      display: flex;
+      align-items: center;
+
+      img {
+        border-radius: 50%;
+        border: 9px solid rgb(202, 0, 0);
+        border: 9px solid rgb(233, 0, 0);
+        border-inline: 1px black;
+      }
+      span {
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: white;
+      }
     }
   }
 
@@ -79,6 +86,7 @@ nav {
 .nav-right {
   display: flex;
   align-items: center;
+
   img {
     margin-left: 1rem;
   }
