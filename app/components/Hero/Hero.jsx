@@ -42,7 +42,7 @@ const Hero = () => {
         <Image src={images.tokenomics} alt='tokenomics' className='tokenomics' width={400} height={400} placeholder='blur' />
         <div className="access">
             <h2>
-                To get <span className='green'>Access</span> to $<span className='red'>M</span>CAT before launch, participate in our official presale.
+                To get <span className='green'>Access</span> to $<span className='red'>M</span>CAT before launch, join our ongoing official presale below.
             </h2>
             <p>
                 NOTE: 90% of the Sol raised will be added to the liquidity pool at launch and all presale participants will receive their $MCAT before launch.
