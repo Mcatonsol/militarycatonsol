@@ -71,9 +71,13 @@
     .input-cover {
       position: relative;
       width: auto;
+      display: flex;
+      justify-content: center;
       height: auto;
       input {
-        padding: 1rem 11rem 1rem 11rem;
+        padding: 1rem 0 1rem 0;
+        text-align: center;
+        width: 33.4vw;
         color: white;
         background: rgba(95, 95, 95, 0.5);
         backdrop-filter: blur(40.774227142333984px);
@@ -90,11 +94,28 @@
           -moz-box-shadow: 2px 3.3px 10px 0px rgba(216, 28, 188, 0.75);
         }
 
+        @media screen and (max-width: 1116px) {
+          width: 45vw;
+        }
+
+        @media screen and (max-width: 899px) {
+          width: 56vw;
+        }
+        @media screen and (max-width: 649px) {
+          width: 76vw;
+        }
+        @media screen and (max-width: 425px) {
+          width: 85vw;
+        }
+        @media screen and (max-width: 341px) {
+          width: 89vw;
+        }
+
         @media screen and (max-width: 574px) {
-          padding: 1rem 9rem 1rem 9rem;
+          // padding: 1rem 9rem 1rem 9rem;
         }
         @media screen and (max-width: 574px) {
-          padding: 1rem 5rem 1rem 5rem;
+          // padding: 1rem 5rem 1rem 5rem;
         }
       }
 
@@ -114,6 +135,7 @@
       line-height: 1.75rem;
       margin: 1.2rem 0 1.7rem 0;
       display: block;
+      text-align: center;
     }
     .fill-form {
       color: white;

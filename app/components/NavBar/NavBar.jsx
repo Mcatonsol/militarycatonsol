@@ -15,16 +15,18 @@ const NavBar = () => {
     <nav>
       <div className="nav-left">
         <div className="icon">
-          <Image src={images.mcatLogin} alt='icon image' width={65} height={65} quality={100} placeholder='blur'/>
-          <span>
-            MILITARY CAT
-          </span>
+          <Link href='/'>
+            <Image src={images.mcatLogin} alt='icon image' width={65} height={65} quality={100} placeholder='blur'/>
+            <span>
+              MILITARY CAT
+            </span>
+          </Link>
         </div>
         <div className="navigation">
           <Link href='#hero' data-id='hero' className={`${nav === "hero"? "selected" : ""}`}
           onClick={toggleNav}>HOME</Link>
 
-          <Link href='#buy' data-id='buy' className={`${nav === "buy"? "selected" : ""}`}
+          <Link href='/' data-id='buy' className={`${nav === "buy"? "selected" : ""}`}
           onClick={toggleNav}>HOW TO BUY</Link>
 
           <Link href='#about'data-id='about' className={`${nav === "about"? "selected" : ""}`}
@@ -39,7 +41,8 @@ const NavBar = () => {
       </div>
       <div className="nav-right">
           <Link href='#timer'>
-          <Button type='button' text='Buy Now' className='nav-button'/>
+          <Button type='button' text='LAUNCH APP' className='nav-button'
+          style={{lineHeight: '1.5rem'}}/>
           </Link>
           {/* <Link href='https://t.me/militarycatonsol'>
           <Image src={images.telegram} alt='telegram image' width={40} height={40} placeholder="blur" quality={100}/>

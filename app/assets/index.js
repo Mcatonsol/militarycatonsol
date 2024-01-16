@@ -15,6 +15,10 @@ import amount from "./amount.png";
 import buy from "./buy.png";
 import catSecond from "./cat-second.jpeg";
 import tokenomics from "./tokenomics.jpeg";
+import DONGARTHUR from "./DONGARTHUR.jpeg";
+import JINYOUNG from "./JINYOUNG.jpeg";
+import TAEHOON from "./TAEHOON.jpeg";
+import ETHANBRIAN from "./ETHANBRIAN.jpeg";
 const images = {
   mcatLogin,
   mcat2,
@@ -33,6 +37,10 @@ const images = {
   amount,
   catSecond,
   tokenomics,
+  DONGARTHUR,
+  JINYOUNG,
+  TAEHOON,
+  ETHANBRIAN,
 };
 
 export default images;

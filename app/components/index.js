@@ -7,3 +7,4 @@ export { default as About } from "./About/About";
 export { default as UtilitySection } from "./UtilitySection/UtilitySection";
 export { default as Why } from "./Why/Why";
 export { default as Footer } from "./Footer/Footer";
+export { default as Team } from "./Team/Team";
