@@ -40,7 +40,7 @@ const NavBar = () => {
         </div>
       </div>
       <div className="nav-right">
-          <Link href='#timer'>
+          <Link href='/swap'>
           <Button type='button' text='LAUNCH APP' className='nav-button'
           style={{lineHeight: '1.5rem'}}/>
           </Link>
