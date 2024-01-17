@@ -63,7 +63,7 @@ const Footer = () => {
                 <Link href='https://t.me/militarycatonsol'>
                     <Image src={images.telegram} alt='telegram icon' width={95} height={97} placeholder='blur'/>
                 </Link>
-                <Link href='https://x.com/Mcatonsol?t=b6LLl01dTslslhsw7IWJTQ&s=09'>
+                <Link href='https://x.com/mcatsolx?s=21&t=n9PVrS58oOWCaUM6AfhYEQ'>
                     <Image src={images.twitter} alt='twitter icon' width={110} height={115} placeholder='blur'/>
                 </Link>
             </div>
