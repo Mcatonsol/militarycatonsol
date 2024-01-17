@@ -9,7 +9,7 @@ import { toast } from 'react-toastify'
 
 const CardCounter = () => {
     const [solAmount, setSolAmount] = useState('');
-    const endDate  = new Date('Jan 18, 2024 00:00:00').getTime();
+    const endDate  = new Date('Jan 23, 2024 00:00:00').getTime();
     const [days, setDays] = useState('');
     const [hours, setHours] = useState('');
     const [minutes, setMinutes] = useState('');

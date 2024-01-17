@@ -40,7 +40,7 @@ const Hero = () => {
             </h4>
         </div>
         <Image src={images.tokenomics} alt='tokenomics' className='tokenomics' width={400} height={400} placeholder='blur' />
-        <div className="access">
+        <div className="access" id='accesslive'>
             <h2>
                 To get <span className='green'>Access</span> to $<span className='red'>M</span>CAT before launch, join our ongoing official presale below.
             </h2>

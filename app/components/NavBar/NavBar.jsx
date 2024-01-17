@@ -26,7 +26,7 @@ const NavBar = () => {
           <Link href='#hero' data-id='hero' className={`${nav === "hero"? "selected" : ""}`}
           onClick={toggleNav}>HOME</Link>
 
-          <Link href='/' data-id='buy' className={`${nav === "buy"? "selected" : ""}`}
+          <Link href='#accesslive' data-id='buy' className={`${nav === "buy"? "selected" : ""}`}
           onClick={toggleNav}>HOW TO BUY</Link>
 
           <Link href='#about'data-id='about' className={`${nav === "about"? "selected" : ""}`}
