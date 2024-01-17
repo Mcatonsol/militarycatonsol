@@ -13,25 +13,26 @@ const page = () => {
     <>
     {seeSwap? <>
     <div className="first-nav"
-            onClick={()=>setSeeSwap(false)}
     >
         <div className="icon">
           <Link href='/'>
             <Image src={images.mcatLogin} alt='icon image' width={65} height={65} quality={100} placeholder='blur'/>
             <span>
-              MILITARY CAT
+              MCAT <span>APP</span>
             </span>
           </Link>
         </div>
         <div className="trade">
-            <Link href='/'>
+            <Link href='/swap'>
                 <Image src={images.fingerPrint} alt='icon image' width={17} height={17} quality={100}/>
                 <span>
                 Trade
                 </span>
           </Link>
         </div>
-        <div className="setting-img">
+        <div className="setting-img"
+        onClick={()=>setSeeSwap(false)}
+        >
             <div className="img-cover">
                 <Image src={images.setting} alt='icon image' width={22} height={22} quality={100}/>
             </div>
@@ -52,7 +53,7 @@ const page = () => {
                     Swap
                 </h5>
                 <h6>
-                    The Best Price
+                    At Best Price
                 </h6>
             </div>
         </div>
@@ -65,7 +66,7 @@ const page = () => {
                     Bridge
                 </h5>
                 <h6>
-                    Transfer Assets to Solana
+                    Transfer Assets Across Chains 
                 </h6>
             </div>
         </div>
@@ -78,11 +79,13 @@ const page = () => {
                     Vote
                 </h5>
                 <h6>
-                    Cast Lots
+                    Governance
                 </h6>
             </div>
         </div>
-        <div className="game">
+        <div className="game"
+        
+        >
             <div className="img-covers">
                 <Image src={images.game} alt='icon image' width={20} height={20} quality={100}/>
             </div>
@@ -159,6 +162,24 @@ const page = () => {
             style={{margin:"auto", display:'block'}}/>
         </div>
     </div>
+    <footer
+    style={{marginTop: '0',
+  padding: '2rem 0 2rem 0'}}
+    >
+            <div className="icons">
+                <Link href='https://t.me/militarycatonsol'>
+                    <Image src={images.telegram} alt='telegram icon' width={30} height={30}/>
+                </Link>
+                <Link href='https://x.com/mcatsolx?s=21&t=n9PVrS58oOWCaUM6AfhYEQ'>
+                    <Image src={images.twitter} alt='twitter icon' width={33} height={33}/>
+                </Link>
+            </div>
+            <small
+             style={{marginTop: '1rem'}}
+            >
+                Copyright © 2024 MCAT. All Rights Reserved
+            </small>
+    </footer>
     </> : <div className='blur'>
         <h1>
             Development In <i>Progress</i>
