@@ -19,6 +19,18 @@ import DONGARTHUR from "./DONGARTHUR.jpeg";
 import JINYOUNG from "./JINYOUNG.jpeg";
 import TAEHOON from "./TAEHOON.jpeg";
 import ETHANBRIAN from "./ETHANBRIAN.jpeg";
+import setting from "./setting.png";
+import fingerPrint from "./fingerPrint.png";
+import bridge from "./bridge.png";
+import dollar from "./dollar.png";
+import game from "./game.png";
+import limit from "./limit.png";
+import swap from "./swap.png";
+import vote from "./vote.png";
+import reload from "./reload.png";
+import downArrow from "./downArrow.png";
+import market from "./market.png";
+
 const images = {
   mcatLogin,
   mcat2,
@@ -41,6 +53,17 @@ const images = {
   JINYOUNG,
   TAEHOON,
   ETHANBRIAN,
+  setting,
+  fingerPrint,
+  bridge,
+  dollar,
+  game,
+  limit,
+  swap,
+  vote,
+  reload,
+  downArrow,
+  market,
 };
 
 export default images;
