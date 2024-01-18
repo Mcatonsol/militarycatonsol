@@ -73,7 +73,7 @@ const CardCounter = () => {
         </div>
         <div className="amount">
             <div className="input-cover">
-                <input type="text" placeholder='Min 0.5 SOL | Max 15 SOL' name="sol-amount" id="" value={solAmount} 
+                <input type="text" placeholder='Min 0.25 SOL | Max 10 SOL' name="sol-amount" id="" value={solAmount} 
                 readOnly
                 // onChange={(e)=>setSolAmount(e.target.value)}
                 // onKeyUp={handleChange}
